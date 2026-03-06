@@ -1,0 +1,120 @@
+/* ===== PRODUCT DETAIL PAGE ===== */
+.p_page{ padding: 45px 0 90px; background:#fff; }
+.p_wrap{ max-width: 1050px; margin:0 auto; padding:0 18px; }
+
+.p_back{
+  display:inline-block;
+  margin-bottom: 16px;
+  font-size: 12px;
+  color: rgba(0,0,0,0.6);
+}
+.p_back:hover{ color:#111; }
+
+.p_grid{
+  display:grid;
+  grid-template-columns: 1.25fr 1fr;
+  gap: 40px;
+  align-items:start;
+}
+
+.p_image_box{
+  background:#f3f3f3;
+  min-height: 520px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  overflow:hidden;
+}
+.p_image_box img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.p_tag{
+  font-size: 10px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: rgba(0,0,0,0.5);
+  margin-bottom: 8px;
+}
+
+.p_name{
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(22px, 3vw, 32px);
+  font-weight: 600;
+  margin: 0 0 6px;
+}
+
+.p_price{
+  font-size: 14px;
+  font-weight: 700;
+  margin: 0 0 14px;
+}
+
+.p_desc{
+  font-size: 12px;
+  line-height: 1.7;
+  color: rgba(0,0,0,0.65);
+  max-width: 430px;
+  margin-bottom: 22px;
+}
+
+.p_block{ margin-bottom: 18px; }
+
+.p_label{
+  font-size: 10px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: rgba(0,0,0,0.6);
+  margin-bottom: 10px;
+}
+
+.p_sizes{ display:flex; gap:10px; flex-wrap:wrap; }
+
+.p_sizes button{
+  height: 34px;
+  min-width: 46px;
+  padding: 0 14px;
+  border: 1px solid rgba(0,0,0,0.14);
+  background: #fff;
+  font-size: 11px;
+  letter-spacing: 1px;
+}
+.p_sizes button.active{ border-color:#111; }
+
+.p_hint{
+  font-size: 11px;
+  margin-top: 8px;
+  color: rgba(0,0,0,0.55);
+}
+
+/* qty */
+.p_qty{
+  width: 140px;
+  height: 40px;
+  border: 1px solid rgba(0,0,0,0.14);
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+}
+.p_qty button{ width:44px; height:100%; font-size:18px; }
+.p_qty span{ font-size: 12px; font-weight: 700; }
+
+/* add button */
+.p_add{
+  width: 100%;
+  height: 46px;
+  background:#111;
+  color:#fff;
+  border:none;
+  cursor:pointer;
+  letter-spacing: 2px;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+@media(max-width: 900px){
+  .p_grid{ grid-template-columns: 1fr; }
+  .p_image_box{ min-height: 420px; }
+}

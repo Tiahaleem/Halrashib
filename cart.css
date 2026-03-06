@@ -1,0 +1,111 @@
+.cart_page{ padding: 50px 0 90px; background:#fff; }
+.cart_inner{ max-width: 1050px; margin:0 auto; padding:0 18px; }
+
+.cart_title{
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 22px;
+}
+
+.cart_layout{
+  display: grid;
+  grid-template-columns: 1.4fr 0.6fr;
+  gap: 22px;
+}
+
+.cart_items{
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.cart_item{
+  display: grid;
+  grid-template-columns: 90px 1fr auto;
+  gap: 14px;
+  align-items: center;
+  padding: 14px;
+  border: 1px solid rgba(0,0,0,0.08);
+  background: #fff;
+}
+
+.cart_item img{
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  background:#f3f3f3;
+}
+
+.cart_item_name{ font-weight: 700; font-size: 14px; }
+.cart_item_price{ font-size: 13px; color: rgba(0,0,0,0.7); margin-top: 4px; }
+
+.cart_qty{
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid rgba(0,0,0,0.12);
+  height: 36px;
+}
+
+.cart_qty button{
+  width: 34px;
+  height: 34px;
+  font-size: 16px;
+}
+
+.cart_qty span{
+  width: 36px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.remove_btn{
+  margin-left: 10px;
+  font-size: 12px;
+  color: rgba(0,0,0,0.55);
+}
+.remove_btn:hover{ color:#111; }
+
+/* summary */
+.cart_summary{
+  border: 1px solid rgba(0,0,0,0.08);
+  padding: 16px;
+  height: fit-content;
+}
+
+.summary_title{ font-weight: 800; margin-bottom: 14px; }
+.summary_row{
+  display:flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-top: 1px solid rgba(0,0,0,0.06);
+  border-bottom: 1px solid rgba(0,0,0,0.06);
+  margin-bottom: 14px;
+}
+
+.checkout_btn{
+  display:flex;
+  height: 44px;
+  align-items:center;
+  justify-content:center;
+  background:#111;
+  color:#fff;
+  text-decoration:none;
+  letter-spacing: 1px;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.continue_link{
+  display:block;
+  text-align:center;
+  margin-top: 10px;
+  font-size: 12px;
+  color: rgba(0,0,0,0.6);
+}
+
+/* responsive */
+@media(max-width: 900px){
+  .cart_layout{ grid-template-columns: 1fr; }
+}
