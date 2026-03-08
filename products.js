@@ -76,4 +76,54 @@ window.PRODUCTS = [
       { label: "XL", price: 13000 }
     ]
   },
+  {
+    id:"butterfly_bubu",
+    name:"Butterfly Bubu",
+    image:"image/butterfly bubu.jpeg",
+    category:"dresses",
+    isNew:true,
+    sizes:[
+      {label:"XXL", price:20000}
+    ]
+  },
+    {
+    id:"ankara_free_gown",
+    name:"Ankara Gown",
+    image:"image/Ankara Gown.jpeg",
+    category:"dresses",
+    isNew:true,
+    sizes:[
+      {label:"XL", price:15000}
+    ]
+  },
+    {
+    id:"2face_ankara_gown",
+    name:"2Face Ankara Gown",
+    image:"image/2 face ankara gown.jpeg",
+    category:"dresses",
+    isNew:true,
+    sizes:[
+      {label:"S", price:10000}
+    ]
+  },
+    {
+    id:"silk_bubu_gown",
+    name:"Silk Bubu Gown",
+    image:"image/Silk Bubu Gown.jpeg",
+    category:"dresses",
+    isNew:true,
+    sizes:[
+      {label:"XXL", price:20000}
+    ]
+  },
+      {
+    id:"campala_long_gown",
+    name:"Campala Long Gown",
+    image:"image/Campala Long Gowm.jpeg",
+    category:"dresses",
+    isNew:true,
+    sizes:[
+      {label:"XL", price:15000}
+    ]
+  },
 ];
