@@ -126,4 +126,14 @@ window.PRODUCTS = [
       {label:"XL", price:15000}
     ]
   },
+        {
+    id:"ankara__gown",
+    name:"Ankara Free Gown",
+    image:"image/Ankara Free Gown.jpeg",
+    category:"dresses",
+    isNew:true,
+    sizes:[
+      {label:"XL", price:15000}
+    ]
+  },
 ];
