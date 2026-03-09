@@ -136,4 +136,44 @@ window.PRODUCTS = [
       {label:"XL", price:15000}
     ]
   },
+  {
+    id:"guineu_l_gown",
+    name:"Guineu Long Gown Style",
+    image:"image/Guniea Long Gown Style.jpeg",
+    category:"dresses",
+    isNew:false,
+    sizes:[
+      {label:"XL", price:20000}
+    ]
+  },
+    {
+    id:"ankara_pelum",
+    name:"Ankara Peplum Top With Flay Skirt",
+    image:"image/Ankara Peplum Top With Flay Skirt.jpeg",
+    category:"dresses",
+    isNew:false,
+    sizes:[
+      {label:"XL", price:20000}
+    ]
+  },
+    {
+    id:"s_waist_top_trouser",
+    name:"Smoking Waist Top And Trouser",
+    image:"image/Smoking Waist Top And Trouser.jpeg",
+    category:"tops",
+    isNew:false,
+    sizes:[
+      {label:"XL", price:20000}
+    ]
+  },
+    {
+    id:"3_l_pieces",
+    name:"3pieces Dress With A Strechy Inner And Baggy Trouser",
+    image:"image/3piece Dress With A Strechy Inner And Baggy Trouser .jpeg",
+    category:"three-piece",
+    isNew:false,
+    sizes:[
+      {label:"L", price:15000}
+    ]
+  },
 ];
